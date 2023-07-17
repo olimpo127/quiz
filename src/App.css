@@ -2,6 +2,23 @@
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
+  background-color: lightblue;
+}
+
+.question-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.question-count {
+  margin-bottom: 10px;
+}
+
+.question-text {
+  margin-bottom: 10px;
 }
 
 .score-section {
@@ -90,18 +107,21 @@
   border: none;
   background-color: #f0f0f0;
   cursor: pointer;
+  margin-right: 5px;
 }
 
 .numbered-button.active {
   background-color: #ccc;
 }
 
-.submit-button,
-.reset-button {
+.submit-button {
+  display: flex;
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
   border: none;
-  background-color: #f0f0f0;
+  background-color: lightblue;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
