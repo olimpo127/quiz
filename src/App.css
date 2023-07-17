@@ -2,23 +2,31 @@
   text-align: center;
 }
 
-
-.App-header {
+.alternatives {
   background-color: white;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
+  color: black;
+  margin-bottom: 30px;
+}
+
+.alternatives > button {
+  margin-bottom: 20px;
+}
+
+.questionSelection {
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
   color: black;
 }
 
-.alternatives {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+.questionSelection > button {
+  margin-right: 10px;
 }

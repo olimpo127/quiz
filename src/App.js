@@ -8,19 +8,32 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      
         <h1 className="title">One Piece QUIZ</h1>
         <h5 className="question">
           <strong>{questionNumber}. </strong>
           Who is the first person to defeat Monkey D. Luffy?
         </h5>
         <div className="alternatives">
-          <p>A. Rob Lucci</p>
-          <p>B. Portgas D. Ace</p>
-          <p>C. Crocodile</p>
-          <p>D. Smoker</p>
+          <button>A. Rob Lucci</button>
+          <button>B. Portgas D. Ace</button>
+          <button>C. Crocodile</button>
+          <button>D. Smoker</button>
         </div>
-      </header>
+        <div className="questionSelection">
+          <button>Previous</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>10</button>
+          <button>Next</button>
+        </div>
     </div>
   );
 }
