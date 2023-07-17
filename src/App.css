@@ -1,32 +1,121 @@
-.App {
-  text-align: center;
+.quiz {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.alternatives {
-  background-color: white;
+.question-section{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-  margin-bottom: 30px;
 }
 
-.alternatives > button {
+.question-count {
+  margin-bottom: 10px;
+}
+
+.question-text {
+  margin-bottom: 10px;
+}
+
+.score-section {
+  text-align: center;
   margin-bottom: 20px;
 }
 
-.questionSelection {
-  background-color: white;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  color: black;
+.answers-feedback {
+  margin-top: 20px;
 }
 
-.questionSelection > button {
-  margin-right: 10px;
+.question-feedback {
+  margin-bottom: 20px;
+}
+
+.question-feedback p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer-feedback {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.answer-feedback-icon {
+  margin-left: 10px;
+}
+
+.answer-option {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.answer-option.selected {
+  background-color: yellow;
+}
+
+.answer-feedback.selected {
+  background-color: yellow;
+}
+
+.answer-feedback.correct {
+  background-color: green;
+}
+
+.answer-feedback.incorrect {
+  background-color: red;
+}
+
+.navigation-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-button {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.navigation-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.numbered-buttons {
+  margin-top: 10px;
+  display: flex;
+}
+
+.numbered-button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.numbered-button.active {
+  background-color: #ccc;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
 }
