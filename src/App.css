@@ -4,21 +4,6 @@
   padding: 20px;
 }
 
-.question-section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.question-count {
-  margin-bottom: 10px;
-}
-
-.question-text {
-  margin-bottom: 10px;
-}
-
 .score-section {
   text-align: center;
   margin-bottom: 20px;
@@ -111,7 +96,8 @@
   background-color: #ccc;
 }
 
-.submit-button {
+.submit-button,
+.reset-button {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;

@@ -4,7 +4,7 @@ import './App.css'; // Import the CSS file for styling
 const Quiz = () => {
   const questions = [
     {
-      question: 'Who was the first person, among these people, to defeat Monkey D. Luffy?',
+      question: 'Who defeated Luffy first?',
       options: ['Portgas D. Ace', 'Crocodile', 'Smoker', 'Rob Lucci'],
       answer: 0 // Index of the correct option
     },
@@ -188,6 +188,7 @@ const Quiz = () => {
             >
               Next
             </button>
+
             <button className="submit-button" onClick={handleSubmitClick}>
               Submit
             </button>
