@@ -126,3 +126,23 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Media query for smartphones */
+@media (max-width: 767px) {
+  .quiz {
+    max-width: 90%; /* Adjust the maximum width for smaller screens */
+    padding: 10px; /* Decrease padding for smaller screens */
+  }
+
+  .question-section {
+    margin: 10px; /* Add margin for smaller screens */
+  }
+
+  .question-text {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .answer-option {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
